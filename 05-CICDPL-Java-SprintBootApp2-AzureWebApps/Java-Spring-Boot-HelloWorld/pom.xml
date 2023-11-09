@@ -38,4 +38,8 @@
         </plugins>
     </build>
 
+    <!-- Add the <property> element with JAVA_OPTS -->
+    <properties>
+        <JAVA_OPTS>-Dserver.port=80</JAVA_OPTS>
+    </properties>
 </project>
